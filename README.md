@@ -1,37 +1,40 @@
 # UCloudTeach-Admin
 
-#### 介绍
-优云教在线教育平台管理后台前端项目，技术栈为 Vue3+Ant-Design-Vue+TypeScript ，其他组件信息请查看具体依赖文件。
+### 项目介绍
+本仓库为优云教在线教育平台管理后台前端项目，技术栈为 Vue3+Ant-Design-Vue+TypeScript ，具体功能请查看项目后台仓库：[UCloudTeach-Monolithic](https://gitee.com/h0ss/ucloud-teach-monolithic)，项目后台基本交互功能都已实现，简单的场景示例如下：
 
-#### 软件架构
-软件架构说明
+后台登录页面：
+
+![](docs/imglogin.png)
+
+项目首页：
+
+![](docs/imgindex.png)
+
+学员管理：
+
+![](docs/imgstudent.png)
+
+课程管理：
+
+![](docs/imgcourse.png)
+
+题目管理：
+
+![](docs/imgquestion.png)
+![](docs/imgadd-question.png)
+
+考试管理：
+
+![](docs/imgexam.png)
 
 
-#### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 使用说明
 
-#### 使用说明
+1.  克隆本仓库：`git clone https://gitee.com/h0ss/ucloud-teach-admin.git`
+2.  安装依赖：`npm install`
+3.  运行项目：`yarn run serve-dev`
+4.  确保后端项目已启动，修改`.env.dev`文件中的地址与端口信息
+5.  本地构建请在浏览器访问`http://localhost:8080`
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
